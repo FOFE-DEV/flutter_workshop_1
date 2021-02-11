@@ -14,11 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Scaffold(
-        body: Center(
-          child: Text("hello Sygalin TVSAT"),
-        ),
-      ),
+      home: Text('hello sygalin'),
     );
   }
 }
